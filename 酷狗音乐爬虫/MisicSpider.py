@@ -83,7 +83,7 @@ class Spider():
         with open(path + name + '.mp3', 'wb') as file:
             file.write(music)
         print("下载成功!!!（回车继续）")
-        # 打卡下载目录
+        # 打开下载目录
         start_directory = r"C:\\Users\\%s\\Music\\" % (getpass.getuser())
         os.startfile(start_directory)
 
